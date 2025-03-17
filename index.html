@@ -11,7 +11,7 @@
 <body class="font-sans">
 
     <!-- Navbar -->
-    <nav class="fixed top-0 left-0 w-full bg-white shadow-md py-4 px-8 flex justify-between items-center z-50">
+    <nav class="fixed top-0 left-0 w-full bg-white shadow-lg py-4 px-8 flex justify-between items-center z-50">
         <!-- Logo -->
         <a href="#">
             <img src="images/logo.svg" alt="Logo" class="h-12">  <!-- Adjust height as needed -->
@@ -49,24 +49,46 @@
         </ul>
 
         <!-- Schedule a Call Button -->
-        <a href="#contact" class="hidden md:block border-2 border-red-600 text-black bg-gradient-to-r from-pink-200 to-red-400 px-5 py-2 rounded-full font-semibold hover:bg-gradient-to-r hover:from-red-600 hover:to-black hover:text-white transition-all">
+        <a href="#contact" class="hidden md:block text-black bg-gradient-to-r from-pink-200 to-red-400 px-5 py-2 rounded-full font-semibold hover:bg-gradient-to-r hover:from-red-600 hover:to-black hover:text-white transition-all shadow-md hover:shadow-lg">
             Schedule a Call
         </a>
+        
                  
         <!-- Mobile Menu Button -->
         <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none">
             ☰
         </button>
     </nav>
+<!-- Hero Section -->
+<section id="home" class="h-screen flex items-center justify-center bg-gray-50 shadow-lg pt-20 relative">
+    
+    
+    <div class="flex items-center justify-between w-full px-6">
+        <!-- Left side: Text -->
+        <div class="w-1/2 text-center md:text-left">
+            <div class="flex items-center space-x-2">
+                <h1 class="text-5xl font-bold hero-text text-red-300">Witsberry</h1>
+                <h1 class="text-5xl font-bold hero-text ">Expertises</h1>
+            </div>  
+            <p class="text-2xl mt-4">Tailored Digital Solutions with Clarity and Timeliness.</p>
+            <p class="text-lg mt-8">Delivering cutting-edge websites and apps with no delays, no hidden costs.</p>
+            <p class="text-lg mt-1">We help businesses grow with next-generation digital solutions tailored to their goals.</p><br>
+            <a href="#about" class="mt-6 px-6 py-3 bg-gradient-to-r from-pink-200 to-red-400 text-gray-700 rounded-full font-semibold hover:bg-gray-200 transition-all">
+                Learn More
+            </a>
+        </div>
+        
+        <!-- Right side: Animated Image -->
+        <div class="w-1/2 h-screen flex items-center justify-center px-5 py-10">
+            <img src="http://witsberry.com/wp-content/uploads/2024/09/bespoke-digital-solutions-provider.webp" 
+                alt="Animated Image" 
+                class="w-full h-full" />
+        </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-pink-200 to-red-400 text-black">
-        <h1 class="text-5xl font-bold hero-text">Welcome to Witsberry</h1>
-        <p class="text-lg mt-2">Tailored Digital Solutions with Clarity and Timeliness.</p>
-        <a href="#about" class="mt-6 px-6 py-3 bg-white text-red-600 rounded-full font-semibold hover:bg-gray-200 transition-all">
-            Learn More
-        </a>
-    </section>
+    </div>
+</section>
+
+
 
 </body>
 </html>
