@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 <body class="font-sans">
 
@@ -45,7 +47,7 @@
             </li>
             
             <li><a href="#projects" class="hover:text-red-500 transition">Projects</a></li>
-            <li><a href="#blog" class="hover:text-red-500 transition">Blog</a></li>
+            <li><a href="#blog" class="hover:text-red-500 transition">Blogs</a></li>
             <li><a href="#contact" class="hover:text-red-500 transition">Contact</a></li>
         </ul>
 
@@ -152,13 +154,16 @@
     </div>
 </div>
 
+<!--Let's Start-->
+<div class="px-8 py-12">
+    <h1 class="text-6xl bg-gradient-to-r from-black to-red-500 bg-clip-text text-transparent font-bold text-center">Let's design a cool solution with Witsberry!</h1>
+    <h3 class="text-3xl text-gray-400 font-bold text-center"> We Turn Your Ideas Into Reality...</h3>  
+</div>
+
 <div class="flex flex-row-reverse items-center gap-8 px-8 py-12">
     <!-- Animated GIF Section -->
     <div class="w-1/2">
-        <img id="techGif" 
-            src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" 
-            alt="Tech Animation" 
-            class="w-full h-auto opacity-0 scale-50">
+    
     </div>
 
     <!-- Text Section -->
@@ -258,34 +263,178 @@
             <h1 class="text-4xl font-bold text-red-500">Witsberry</h1> 
             <h1 class="text-3xl font-bold text-black">Works ?</h1>
             <p class="mt-3 text-lg text-gray-600 font-semibold">We believe in making things easy and transparent for our clients.</p>
-        <!-- Buttons -->
-        <button class="mt-4 w-full px-6 py-4 rounded-lg shadow-lg text-left text-lg">
-            <span class="bg-gradient-to-r from-red-400 to-black bg-clip-text text-transparent font-bold">
-                Schedule a Consultation
-            </span>
-            <p class="text-sm text-gray-500 font-normal">Share your aspirations with us, and together, we’ll uncover the best ways to achieve them.</p>
-        </button>
+        <!-- Lists -->
+        <div class="mt-4 w-full px-6 py-4 rounded-lg shadow-lg text-left text-lg">
+            <div class="flex items-center gap-4">
+                <!-- Number Circle -->
+                <span class="w-10 h-10 flex items-center justify-center bg-black text-white font-bold rounded-full">
+                    1
+                </span>
+                
+                <!-- Text Section -->
+                <div>
+                    <span class="bg-gradient-to-r from-red-400 to-black bg-clip-text text-transparent font-bold text-lg">
+                        Schedule a Consultation
+                    </span>
+                    <p class="text-sm text-gray-500 font-normal">
+                        Share your aspirations with us, and together, we’ll uncover the best ways to achieve them.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
 
-        <button class="mt-4 w-full px-6 py-4 rounded-lg shadow-lg text-left text-lg">
-            <span class="bg-gradient-to-r from-red-400 to-black bg-clip-text text-transparent font-bold">
-                Get a Tailored Strategy
-            </span>
-            <p class="text-sm text-gray-500 font-normal">We’ll craft a tailored digital solution to meet your unique business challenges.</p>
-        </button>
+        <div class="mt-4 w-full px-6 py-4 rounded-lg shadow-lg text-left text-lg">
+            <div class="flex items-center gap-4">
+                <!-- Number Circle -->
+                <span class="w-10 h-10 flex items-center justify-center bg-black text-white font-bold rounded-full">
+                    2
+                </span>
+                
+                <!-- Text Section -->
+                <div>
+                    <span class="bg-gradient-to-r from-red-400 to-black bg-clip-text text-transparent font-bold text-lg">
+                        Get a Tailored Strategy
+                    </span>
+                    <p class="text-sm text-gray-500 font-normal">
+                        We’ll craft a tailored digital solution to meet your unique business challenges.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
 
-        <button class="mt-4 w-full px-6 py-4 rounded-lg shadow-lg text-left text-lg">
-            <span class="bg-gradient-to-r from-red-400 to-black bg-clip-text text-transparent font-bold">
-                Watch Your Business Grow
-            </span>
-            <p class="text-sm text-gray-500 font-normal">We’ll execute the plan, ensuring every project is delivered on time and within budget.</p>
-        </button>
-
+        <div class="mt-4 w-full px-6 py-4 rounded-lg shadow-lg text-left text-lg">
+            <div class="flex items-center gap-4">
+                <!-- Number Circle -->
+                <span class="w-10 h-10 flex items-center justify-center bg-black text-white font-bold rounded-full">
+                    3
+                </span>
+                
+                <!-- Text Section -->
+                <div>
+                    <span class="bg-gradient-to-r from-red-400 to-black bg-clip-text text-transparent font-bold text-lg">
+                        Watch Your Business Grow
+                    </span>
+                    <p class="text-sm text-gray-500 font-normal">
+                        We’ll execute the plan, ensuring every project is delivered on time and within budget.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
         </div>
     </div>
-    <div>
-
-    </div>
  </div>
+
+ <!-- Blogs Section -->
+<section id="blogs" class="mb-12">
+<div class="px-8 py-12">
+    <h1 class="text-4xl font-bold hero-text text-black text-center">Our Latest Blogs</h1>
+</div>
+
+<!-- Blog Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
+    <!-- Card 1 -->
+    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+        <div class="h-48 bg-gray-700 flex items-center justify-center">
+            <span class="text-white">Image Here</span>
+        </div>
+        <div class="p-6 text-white">
+            <h2 class="text-black text-2xl font-bold">Blog Title 1</h2>
+            <p class="text-gray-800 mt-2">Short description about the blog goes here. Keep it brief and engaging.</p>
+            <a href="#" class="text-red-500 font-semibold mt-4 inline-block">Read More →</a>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+        <div class="h-48 bg-gray-700 flex items-center justify-center">
+            <span class="text-white">Image Here</span>
+        </div>
+        <div class="p-6 text-white">
+            <h2 class="text-black text-2xl font-bold">Blog Title 2</h2>
+            <p class="text-gray-800 mt-2">Short description about the blog goes here. Keep it brief and engaging.</p>
+            <a href="#" class="text-red-500 font-semibold mt-4 inline-block">Read More →</a>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+        <div class="h-48 bg-gray-700 flex items-center justify-center">
+            <span class="text-white">Image Here</span>
+        </div>
+        <div class="p-6 text-white">
+            <h2 class="text-black text-2xl font-bold">Blog Title 3</h2>
+            <p class="text-gray-800 mt-2">Short description about the blog goes here. Keep it brief and engaging.</p>
+            <a href="#" class="text-red-500 font-semibold mt-4 inline-block">Read More →</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-black text-white py-12 pt-12">
+    <div class="max-w-7xl mx-auto px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <!-- Company Info -->
+            <div>
+                <img src="images/logo.svg" alt="Witsberry Logo" class="w-32 h-auto">
+                <p class="text-gray-400 mt-2">At Witsberry, we understand your unique journey. Our team of 25+ marketers, developers, and strategists is here to help you overcome challenges and achieve your goals with tailored solutions.</p>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h3 class="text-xl font-semibold text-red-500">Services</h3>
+                <ul class="mt-2 space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">App & Software Development</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Web Development</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Digital Marketing</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">SEO Optimization</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Brand Building</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-xl font-semibold text-red-500">Quick Links</h3>
+                <ul class="mt-2 space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Home</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">About Us</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Services</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Solutions</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Projects</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Blogs</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-red-500">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div>
+                <h3 class="text-xl font-semibold text-red-500">Contact Us</h3>
+                <p class="text-gray-400 mt-2">Email: info@witsberry.com</p>
+                <p class="text-gray-400">Phone: +94 65 20 50 582</p>
+                <p class="text-gray-400">Location: 33/54, Sinna Thoana Road Kattankudy - 01 Sri Lanka 30100</p>
+                <p class="text-gray-400">Phone: +44 20 80 588 012</p>
+                <p class="text-gray-400">Location: 128, City Road London EC1V 2NX United Kingdom</p>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="border-t border-gray-700 my-6"></div>
+
+        <!-- Bottom Section -->
+        <div class="flex flex-col md:flex-row items-center justify-between text-gray-500 text-sm">
+            <p>© 2025 Witsberry. All Rights Reserved.</p>
+            <div class="flex space-x-4 mt-4 md:mt-0">
+                <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <div class="fixed bottom-6 right-6 bg-black p-4 rounded-full shadow-lg hover:scale-110 transition">
     <a href="#" class="flex items-center justify-center">
@@ -297,18 +446,4 @@
 
 
 </body>
-
-<script>
-    gsap.registerPlugin(ScrollTrigger);
-
-    gsap.fromTo("#techGif", 
-        { opacity: 0, scale: 0.5 }, 
-        { opacity: 1, scale: 1, duration: 1.5, ease: "power3.out",
-          scrollTrigger: {
-              trigger: "#techGif",
-              start: "top 80%", // When 80% of the section is visible
-              toggleActions: "play none none none"
-          }
-    });
-</script>
 </html>
